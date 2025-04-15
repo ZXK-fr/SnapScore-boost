@@ -5,7 +5,7 @@
   <h2 align="center">SnapScore Boost</h2>
 
   <p align="center">
-    boost ton snapscore automatiquement et gratuitement avec ce script développé par zxk
+    boost ton snapscore automatiquement et gratuitement avec ce script
   </p>
 </div>
 
