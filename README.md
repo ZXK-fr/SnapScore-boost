@@ -11,7 +11,8 @@
 
 ---
 
-![screenshot](https://i.ytimg.com/vi/Hs7ZYlYN550/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDoeqg2Ok_0FE03l1PjXb6-dCAyoA)
+<div align="center">
+  ![screenshot](https://i.ytimg.com/vi/Hs7ZYlYN550/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDoeqg2Ok_0FE03l1PjXb6-dCAyoA)
 
 ---
 
