@@ -35,27 +35,27 @@ class snapchat:
         self.debut = None
 
     def choper_positions(self):
-        self.log("mets ta souris sur *caméra* et appuie sur F")
+        self.log("mets ta souris sur *caméra* et appuie sur G")
         self.bouton_camera = self.attendre_f()
 
-        self.log("mets ta souris sur *prendre photo* et appuie sur F")
+        self.log("mets ta souris sur *prendre photo* et appuie sur G")
         self.bouton_photo = self.attendre_f()
 
-        self.log("mets ta souris sur *envoyer à* et appuie sur F")
+        self.log("mets ta souris sur *envoyer à* et appuie sur G")
         self.bouton_envoyer_a = self.attendre_f()
 
-        self.log("mets ta souris sur ton *raccourci* et appuie sur F")
+        self.log("mets ta souris sur ton *raccourci* et appuie sur G")
         self.raccourci = self.attendre_f()
 
-        self.log("mets ta souris sur *tout sélectionner* et appuie sur F")
+        self.log("mets ta souris sur *tout sélectionner* et appuie sur G")
         self.selectionner_tout = self.attendre_f()
 
-        self.log("mets ta souris sur *envoyer snap* et appuie sur F")
+        self.log("mets ta souris sur *envoyer snap* et appuie sur G")
         self.bouton_envoyer_snap = self.attendre_f()
 
     def attendre_f(self):
         while True:
-            if keyboard.is_pressed("f"):
+            if keyboard.is_pressed("G"):
                 pos = pyautogui.position()
                 time.sleep(0.5)
                 return pos
@@ -119,8 +119,8 @@ class snapchat:
         if choix == "1":
             self.delai = 2
 
-        self.log("va dans les chats et appuie sur F quand t’es prêt")
-        while not keyboard.is_pressed("f"):
+        self.log("va dans les chats et appuie sur G quand t’es prêt")
+        while not keyboard.is_pressed("G"):
             pass
 
         os.system("cls" if not sur_linux() else "clear")
